@@ -3,9 +3,9 @@ export default {
     state: {
         list: [
             {estado: 'Activo', temperatura: '5', localizacion: 'Almería', cliente: 'Arelia Management Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
-            {estado: 'Activando', temperatura: '2', localizacion: 'Alicante', cliente: 'Subigitur Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
-            {estado: 'Activando', temperatura: '3', localizacion: 'Almería', cliente: 'Gestum Cooperativas Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
-            {estado: 'Activando', temperatura: '1', localizacion: 'Valencia', cliente: 'Arelia Management Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
+            {estado: 'Apagado', temperatura: '2', localizacion: 'Alicante', cliente: 'Subigitur Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
+            {estado: 'Apagado', temperatura: '3', localizacion: 'Almería', cliente: 'Gestum Cooperativas Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
+            {estado: 'Activo', temperatura: '1', localizacion: 'Valencia', cliente: 'Arelia Management Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
             {estado: 'Apagado', temperatura: '10', localizacion: 'Valencia', cliente: 'Urbanz Gestion De Cooperativas Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
             {estado: 'Apagado', temperatura: '2', localizacion: 'Córdoba', cliente: 'Contratas Agrarias Sl', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},
             {estado: 'Activo', temperatura: '7', localizacion: 'Sevilla', cliente: 'Gestum Cooperativas Sl.', fecha: 'Sat, 29 Jan 2022 10:48:36 GMT'},

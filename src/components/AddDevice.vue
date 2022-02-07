@@ -27,7 +27,7 @@
       >
        <option v-for="item of clients" v-bind:value="item" :key="item.id"> {{item}} </option>
       </select>
-      <button class="btn btn-light" type="submit" @click="createNewDevice()">Add</button>
+      <button class="btn btn-primary" type="submit" @click="createNewDevice()">Add</button>
     </form>
   </div>
 </template>

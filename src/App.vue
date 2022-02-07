@@ -5,7 +5,7 @@
     </div>
     <router-view/>
     <div class="text-right">
-      <span class="version"><strong>Versión</strong> {{ version }}</span>
+      <span class="version" @click="goToVersions()"><strong>Version</strong> {{ version }}</span>
     </div>
   </div>
 </template>
@@ -19,6 +19,11 @@ export default {
       version: APP_VERSION,
     }
   }, 
+  methods: {
+    goToVersions() {
+      this.$router.push('/versions'); 
+    }
+  },
 }
 </script>
 <style>
